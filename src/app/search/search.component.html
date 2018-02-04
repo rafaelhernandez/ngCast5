@@ -1,0 +1,6 @@
+<div class="search-bar form-inline">
+  <input class="form-control" #query (keyup)="executeQuery(query.value)" type="text" />
+  <button class="btn" (click)="executeQuery(query.value)">
+    <span class="glyphicon glyphicon-search"></span>
+  </button>
+</div>
